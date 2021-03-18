@@ -19,15 +19,20 @@
 
     <!-- Inicio do cabeçalho -->
     <div class="row mt-2">
-    Cabeçalho
+    <p class="fs-1">
+    Página inicial
+    </p>
     </div>
     <!-- Final do Cab -->
 
     <!-- Inicio do corpo -->
     <div class="row mt-2">
-    
         <div class="row">
-        <h1>Calculadora</h1>
+        <h1>
+        <p class="fs-3">
+        Calculadora
+        </p>
+        </h1>
         </div>
 
         <div class="row">
@@ -49,8 +54,10 @@
     <!-- Final do Corp -->
 
     <!-- Inicio do Rodapé -->
-    <div class="row mt-2">
-    Rodapé
+    <div class="row mt-15">
+    <p class="text-center">
+    Todos os direitos reservados - Igor Leonardo Soares Bezerra - 2021
+    </p>
     </div>
     <!-- Final do Rod -->
     </div>
