@@ -32,7 +32,7 @@
 
             </div> 
             <div class="row">
-            <form method="POST" action="{{ route('soma') }}">
+            <form method="POST" action="{{ route('sub') }}">
                     @csrf
                     <div class="mb-3">
                       <label for="primeiroValor" class="form-label">Primeiro valor</label>
@@ -42,7 +42,7 @@
                         <label for="segundoValor" class="form-label">Segundo valor</label>
                         <input type="number" class="form-control" id="segundoValor" name="valor2">
                       </div>                   
-                    <button type="submit" class="btn btn-primary">Somar</button>
+                    <button type="submit" class="btn btn-primary">Subtrair</button>
                     </form>
             </div>     
 

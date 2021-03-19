@@ -17,4 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get ('/soma', '\App\Http\Controllers\Calculadoracontroller@soma');
+Route::get ('/calculadora', '\App\Http\Controllers\Calculadoracontroller@calculadora');
+
+Route::get ('/soma', '\App\Http\Controllers\CalculadoraController@soma')->name('carregarSoma');
+Route::post ('/calcular-soma', '\App\Http\Controllers\CalculadoraController@calcularSoma')->name('soma');
+
+Route::get ('/divide', '\App\Http\Controllers\CalculadoraController@divide')->name('carregarDivide');
+Route::post ('/calcular-divide', '\App\Http\Controllers\CalculadoraController@calcularDivide')->name('divide');
+
+Route::get ('/sub', '\App\Http\Controllers\CalculadoraController@sub')->name('carregarSub');
+Route::post ('/calcular-sub', '\App\Http\Controllers\CalculadoraController@calcularSub')->name('sub');
+
+Route::get ('/multi', '\App\Http\Controllers\CalculadoraController@multi')->name('carregarMulti');
+Route::post ('/calcular-multi', '\App\Http\Controllers\CalculadoraController@calcularMulti')->name('multi');
+
